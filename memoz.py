@@ -1,8 +1,8 @@
 class fibonacci:
     memo = []  # memoization list
 
-    def __init__(self, n):  # initialize a list of n None values
-        self.memo = [None]*(n+1)
+    # def __init__(self, n):  # initialize a list of n None values
+    #     self.memo = [None]*(n+1)
 
     def check_index_range(self, n):  # if index out of range just add more None values
         if len(self.memo) <= n:
